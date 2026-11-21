@@ -272,7 +272,7 @@ function finalizarPedido() {
 
     texto += `\nAguardo confirmação do pedido!`;
 
-    const telefoneRestaurante = "5511999999999";
+    const telefoneRestaurante = "5527998307042";
     const url = `https://wa.me/${telefoneRestaurante}?text=${encodeURIComponent(texto)}`;
     window.open(url, '_blank');
 }
